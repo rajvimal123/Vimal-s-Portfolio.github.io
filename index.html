@@ -1,6 +1,45 @@
 <html>
-<head><meta http-equiv="refresh" content="0; url=https://rajvimal123.github.io/pg1.html" /></head>
-<body>
-<p>Click<a href="https://rajvimal123.github.io/pg1.html">here</a> if you are not automatically redirected to Vimal's homepage</p>
-</body>
+	<head>
+	<!--meta http-equiv="refresh" content="0; url=https://rajvimal123.github.io/pg1.html" /-->
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+    <script>
+// Get the element with id="defaultOpen" and click on it
+    	function intro()
+{document.getElementById("defaultOpen").click();}
+</script>
+	</head>
+	<body onload="intro()">
+
+	<!--p>Click<a href="https://rajvimal123.github.io/pg1.html">here</a> if you are not automatically redirected to Vimal's homepage</p-->
+	<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Pg1')" id="defaultOpen">Introduction</button>
+  <button class="tablinks" onclick="openCity(event, 'Pg2')">Work 1</button>
+  <button class="tablinks" onclick="openCity(event, 'Pg3')">Work 2</button>
+    <button class="tablinks" onclick="openCity(event, 'Pg4')">Work 3</button>
+
+</div>
+
+<!-- Tab content -->
+<div id="Pg1" class="tabcontent">
+  <iframe src="https://rajvimal123.github.io/pg1.html" frameborder="0"
+    style="position: relative; height: 100%; width: 100%;"></iframe>
+</div>
+
+<div id="Pg2" class="tabcontent">
+  <iframe src="https://rajvimal123.github.io/pg2.html" frameborder="0"
+    style="position: relative; height: 100%; width: 100%;"></iframe>
+</div>
+
+<div id="Pg3" class="tabcontent">
+  <iframe src="https://rajvimal123.github.io/pg3.html" frameborder="0"
+    style="position: relative; height: 100%; width: 100%;"></iframe>
+</div>
+<div id="Pg4" class="tabcontent">
+  <iframe src="https://rajvimal123.github.io/pg4.html" frameborder="0"
+    style="position: relative; height: 100%; width: 100%;"></iframe>
+</div>
+
+	</body>
 </html>
